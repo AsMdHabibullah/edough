@@ -40,7 +40,7 @@ code {
 
 .navigation li {
     display: list-item;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 .navigation li:first-child {
@@ -150,7 +150,17 @@ code {
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     .navigation li {
         display: list-item;
-        margin: 0 15px;
+        list-style: none;
+        margin: 0 5px;
+    }
+
+    .navigation li:hover {
+        background: #000;
+        color: #fff;
+    }
+
+    .navigation li a {
+        font-size: 14px
     }
 
     .new-product {
